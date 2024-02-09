@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:profile_app/profile.dart';
 
 void main() => runApp(const MyApp());
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         // useMaterial3: true,
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      home: TicTacToeApp(),
     );
   }
 }
